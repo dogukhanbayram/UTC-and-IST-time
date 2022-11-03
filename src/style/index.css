@@ -1,0 +1,31 @@
+body {
+    width:200px;
+    height:170px;
+    background: #1A1A1D;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.clock {
+    color: #950740;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+}
+.timezone{
+    align-items: center;
+    color: #626263;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+}
+.ist{
+    margin-bottom: 20px;
+}
+.utc{
+    margin-top: 20px;
+}

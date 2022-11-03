@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>    
+    <div id="container" class="container">
+        <div class="ist">
+            <div class="timezone">IST</div>
+            <div id="IST" class="clock" onload="renderTime()"></div>
+        </div>
+        <div class="utc">
+            <div class="timezone" >UTC</div>
+            <div id="UTC" class="clock" onload="renderTime()"></div>
+        </div>       
+    </div>
+</body>
+<script src="./scripts/index.js"></script>
+</html>
